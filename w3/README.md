@@ -13,3 +13,30 @@
 * merge
 * status
 * log
+---
+### 2주차 숙제
+```bash
+#!/usr/bin/env bash
+echo "----------"
+echo "name :"
+echo "최율"
+echo
+echo "----------"
+echo "student id :"
+echo 2019125069
+echo "----------"
+echo
+echo "file path :"
+path=$(find /home/kau2 -name "w2_homework.txt" 2> /dev/null)
+echo $path
+echo
+echo "----------"
+echo "line number :"
+lines=$(cat $path | wc -l)
+echo $lines
+echo
+echo "----------"
+last=$(cat $path | tail -n 1)
+echo "last line :"
+echo $last
+```
