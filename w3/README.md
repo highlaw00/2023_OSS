@@ -19,11 +19,11 @@
 #!/usr/bin/env bash
 echo "----------"
 echo "name :"
-echo "최율"
+echo "XX"
 echo
 echo "----------"
 echo "student id :"
-echo 2019125069
+echo 2019XXXXXX
 echo "----------"
 echo
 echo "file path :"
